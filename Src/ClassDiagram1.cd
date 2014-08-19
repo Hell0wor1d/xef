@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XmlEntityFramework.BaseXmlEntity">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseXmlEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlEntityFramework.XmlEntityAttribute">
+    <Position X="2.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAQAAAEQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlEntityAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlEntityFramework.XmlEntityHandlerAttribute">
+    <Position X="5.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>XmlEntityHandlerAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlEntityFramework.XmlEntityUtility">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAgAABAAABAAABAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>XmlEntityUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlEntityFramework.XmlEntityKnownTypeAttribute">
+    <Position X="8.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlEntityKnownTypeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlEntityFramework.XmlEntityNodeAttribute">
+    <Position X="6.5" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>XmlEntityNodeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlEntityFramework.XmlEntityProvider" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAggAAAACIAAAAAIgAAAAQ=</HashCode>
+      <FileName>XmlEntityProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XmlEntityFramework.XmlParseEngine" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlParseEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XmlEntityFramework.XmlParseMethodAttribute">
+    <Position X="8.75" Y="2.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlParseMethodAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="XmlEntityFramework.IXmlEntityProvider">
+    <Position X="0.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IXmlEntityProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="XmlEntityFramework.IXmlParseEngine">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IXmlParseEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="XmlEntityFramework.HttpMethodType">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYAAACAAAEAQAAAAAAAgAABAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HttpMethodType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="XmlEntityFramework.XmlEntityFlags">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABEAAAAACAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>XmlEntityFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="XmlEntityFramework.XmlEntityNodeFlags">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>XmlEntityNodeFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="XmlEntityFramework.XmlParseMethodType">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlParseMethodType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="XmlEntityFramework.XmlEntityHandler">
+    <Position X="5.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlEntityHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

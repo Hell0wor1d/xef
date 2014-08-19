@@ -1,0 +1,45 @@
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Simple\bin\Debug\Simple.exe
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Simple\bin\Debug\Simple.pdb
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Simple\obj\Debug\Simple.exe
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Simple\obj\Debug\Simple.pdb
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Simple\bin\Debug\XmlEntityFramework.dll
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Simple\bin\Debug\XmlEntityFramework.pdb
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Simple\obj\Debug\Simple.csprojResolveAssemblyReference.cache
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Simple\bin\Debug\demo.xml
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\Demo\Simple\Debug\demo.xml
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\Demo\Simple\Debug\Simple.XML
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\Demo\Simple\Debug\Simple.exe
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\Demo\Simple\Debug\Simple.pdb
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\Demo\Simple\Debug\demo1.xml
+D:\Tools.XmlToEntity_SRC_20130103\Build\Demo\Simple\Debug\Simple.XML
+D:\Tools.XmlToEntity_SRC_20130103\Simple\obj\Debug\Simple.exe
+D:\Tools.XmlToEntity_SRC_20130103\Simple\obj\Debug\Simple.pdb
+D:\Tools.XmlToEntity_SRC_20130103\Build\Demo\Simple\Debug\demo.xml
+D:\Tools.XmlToEntity_SRC_20130103\Build\Demo\Simple\Debug\demo1.xml
+D:\Tools.XmlToEntity_SRC_20130103\Build\Demo\Simple\Debug\Simple.exe
+D:\Tools.XmlToEntity_SRC_20130103\Build\Demo\Simple\Debug\Simple.pdb
+D:\Tools.XmlToEntity_SRC_20130103\Simple\obj\Debug\Simple.csprojResolveAssemblyReference.cache
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Tools\Build\Demo\Simple\Debug\demo.xml
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Tools\Build\Demo\Simple\Debug\demo1.xml
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Tools\Build\Demo\Simple\Debug\Simple.XML
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Tools\Build\Demo\Simple\Debug\Simple.exe
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Tools\Build\Demo\Simple\Debug\Simple.pdb
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Tools\Simple\obj\Debug\Simple.csprojResolveAssemblyReference.cache
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Tools\Simple\obj\Debug\Simple.exe
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Tools\Simple\obj\Debug\Simple.pdb
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Build\Demo\Simple\Debug\demo.xml
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Build\Demo\Simple\Debug\demo1.xml
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Build\Demo\Simple\Debug\Simple.XML
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Build\Demo\Simple\Debug\Simple.exe
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Build\Demo\Simple\Debug\Simple.pdb
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Simple\obj\Debug\Simple.csprojResolveAssemblyReference.cache
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Simple\obj\Debug\Simple.exe
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Simple\obj\Debug\Simple.pdb
+D:\CodePlex\xef\Build\Demo\Simple\Debug\demo.xml
+D:\CodePlex\xef\Build\Demo\Simple\Debug\demo1.xml
+D:\CodePlex\xef\Build\Demo\Simple\Debug\Simple.XML
+D:\CodePlex\xef\Build\Demo\Simple\Debug\Simple.exe
+D:\CodePlex\xef\Build\Demo\Simple\Debug\Simple.pdb
+D:\CodePlex\xef\Simple\obj\Debug\Simple.csprojResolveAssemblyReference.cache
+D:\CodePlex\xef\Simple\obj\Debug\Simple.exe
+D:\CodePlex\xef\Simple\obj\Debug\Simple.pdb

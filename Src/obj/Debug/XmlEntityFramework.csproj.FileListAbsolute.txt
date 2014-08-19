@@ -1,0 +1,31 @@
+H:\TFS_My Work\My Work\Tools.XmlToEntity\XmlEntityFramework\bin\Debug\XmlEntityFramework.dll
+H:\TFS_My Work\My Work\Tools.XmlToEntity\XmlEntityFramework\bin\Debug\XmlEntityFramework.pdb
+H:\TFS_My Work\My Work\Tools.XmlToEntity\XmlEntityFramework\obj\Debug\XmlEntityFramework.dll
+H:\TFS_My Work\My Work\Tools.XmlToEntity\XmlEntityFramework\obj\Debug\XmlEntityFramework.pdb
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\1.0\XmlEntityFramework.dll
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\1.0\XmlEntityFramework.pdb
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\XEF_V1.0\Debug\XmlEntityFramework.XML
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\XEF_V1.0\Debug\XmlEntityFramework.dll
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\XEF_V1.0\Debug\XmlEntityFramework.pdb
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Framework\Build\XEF_V1.0\Debug\XmlEntityFramework.XML
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Framework\Build\XEF_V1.0\Debug\XmlEntityFramework.dll
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Framework\Build\XEF_V1.0\Debug\XmlEntityFramework.pdb
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Framework\XmlEntityFramework\obj\Debug\XmlEntityFramework.dll
+D:\TFSProjects\Mars\WindowsClient\Edu24ol.Client\Framework\XmlEntityFramework\obj\Debug\XmlEntityFramework.pdb
+H:\TFS_My Work\CodePlex\XmlEntityFramework\Build\XEF_V1.0\Debug\XmlEntityFramework.XML
+H:\TFS_My Work\CodePlex\XmlEntityFramework\Build\XEF_V1.0\Debug\XmlEntityFramework.dll
+H:\TFS_My Work\CodePlex\XmlEntityFramework\Build\XEF_V1.0\Debug\XmlEntityFramework.pdb
+H:\TFS_My Work\CodePlex\XmlEntityFramework\Src\obj\Debug\XmlEntityFramework.csprojResolveAssemblyReference.cache
+H:\TFS_My Work\CodePlex\XmlEntityFramework\Src\obj\Debug\XmlEntityFramework.dll
+H:\TFS_My Work\CodePlex\XmlEntityFramework\Src\obj\Debug\XmlEntityFramework.pdb
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Build\XEF_V1.0\Debug\XmlEntityFramework.XML
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Build\XEF_V1.0\Debug\XmlEntityFramework.dll
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Build\XEF_V1.0\Debug\XmlEntityFramework.pdb
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Src\obj\Debug\XmlEntityFramework.csprojResolveAssemblyReference.cache
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Src\obj\Debug\XmlEntityFramework.dll
+H:\TFS_My Work\CodePlex\XmlEntityFramework\xef\Src\obj\Debug\XmlEntityFramework.pdb
+D:\CodePlex\xef\Build\XEF_V1.0\Debug\XmlEntityFramework.XML
+D:\CodePlex\xef\Build\XEF_V1.0\Debug\XmlEntityFramework.dll
+D:\CodePlex\xef\Build\XEF_V1.0\Debug\XmlEntityFramework.pdb
+D:\CodePlex\xef\Src\obj\Debug\XmlEntityFramework.dll
+D:\CodePlex\xef\Src\obj\Debug\XmlEntityFramework.pdb

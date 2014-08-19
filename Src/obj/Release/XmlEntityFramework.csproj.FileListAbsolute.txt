@@ -1,0 +1,13 @@
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\1.0\Release\XmlEntityFramework.XML
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\1.0\Release\XmlEntityFramework.dll
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\1.0\Release\XmlEntityFramework.pdb
+H:\TFS_My Work\My Work\Tools.XmlToEntity\XmlEntityFramework\obj\Release\XmlEntityFramework.dll
+H:\TFS_My Work\My Work\Tools.XmlToEntity\XmlEntityFramework\obj\Release\XmlEntityFramework.pdb
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\XEF_V1.0\Release\XmlEntityFramework.XML
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\XEF_V1.0\Release\XmlEntityFramework.dll
+H:\TFS_My Work\My Work\Tools.XmlToEntity\Build\XEF_V1.0\Release\XmlEntityFramework.pdb
+D:\Tools.XmlToEntity_SRC_20130103\Build\XEF_V1.0\Release\XmlEntityFramework.XML
+D:\Tools.XmlToEntity_SRC_20130103\Build\XEF_V1.0\Release\XmlEntityFramework.dll
+D:\Tools.XmlToEntity_SRC_20130103\Build\XEF_V1.0\Release\XmlEntityFramework.pdb
+D:\Tools.XmlToEntity_SRC_20130103\XmlEntityFramework\obj\Release\XmlEntityFramework.dll
+D:\Tools.XmlToEntity_SRC_20130103\XmlEntityFramework\obj\Release\XmlEntityFramework.pdb

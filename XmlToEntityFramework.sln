@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{9BADEEAC-9BC7-48ED-A3C6-B693B05F0D15}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{D9F21E4B-FA7C-4A67-BCAB-315E9247B8EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simple", "Simple", "{5F649C41-8631-4149-9244-92140E315D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlEntityFramework", "Src\XmlEntityFramework.csproj", "{9C168C26-7590-4586-B22B-A3ECB422E133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple", "Simple\Simple.csproj", "{D12296B9-EAD6-43AB-AD58-E4FB2471EF63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1E7168C9-C10B-4794-970F-F9C58587915C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{B39AE5CC-19A7-4597-96AF-610982F4C6DF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs23
+		SccProjectUniqueName0 = Src\\XmlEntityFramework.csproj
+		SccProjectTopLevelParentUniqueName0 = XmlToEntityFramework.sln
+		SccProjectName0 = Src
+		SccLocalPath0 = Src
+		SccProjectUniqueName1 = Simple\\Simple.csproj
+		SccProjectTopLevelParentUniqueName1 = XmlToEntityFramework.sln
+		SccProjectName1 = Simple
+		SccLocalPath1 = Simple
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C168C26-7590-4586-B22B-A3ECB422E133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C168C26-7590-4586-B22B-A3ECB422E133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C168C26-7590-4586-B22B-A3ECB422E133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C168C26-7590-4586-B22B-A3ECB422E133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12296B9-EAD6-43AB-AD58-E4FB2471EF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12296B9-EAD6-43AB-AD58-E4FB2471EF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12296B9-EAD6-43AB-AD58-E4FB2471EF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12296B9-EAD6-43AB-AD58-E4FB2471EF63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C168C26-7590-4586-B22B-A3ECB422E133} = {9BADEEAC-9BC7-48ED-A3C6-B693B05F0D15}
+		{D12296B9-EAD6-43AB-AD58-E4FB2471EF63} = {5F649C41-8631-4149-9244-92140E315D7B}
+	EndGlobalSection
+EndGlobal

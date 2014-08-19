@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <node name="下载">
+    <server name="下载3" ipaddr="down3.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="下载2" ipaddr="down2.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="下载1" ipaddr="down1.xxxx.com" route="2012-12-31" load="流畅"/>
+  </node>
+  <node name="美国">
+    <server name="网页-游戏2区-03" ipaddr="us13.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="网页-游戏2区-02" ipaddr="us12.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="网页-游戏2区-01" ipaddr="us11.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="网页-游戏1区-03" ipaddr="us16.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="网页-游戏1区-02" ipaddr="us15.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="网页-游戏1区-01" ipaddr="us14.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="视频3区-03" ipaddr="us9.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="视频3区-02" ipaddr="us8.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="视频3区-01" ipaddr="us7.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="视频2区-03" ipaddr="us6.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="视频2区-02" ipaddr="us5.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="视频2区-01" ipaddr="us4.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="视频1区-03" ipaddr="us3.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="视频1区-02" ipaddr="us2.xxxx.com" route="2012-12-31" load="普通"/>
+    <server name="视频1区-01" ipaddr="us1.xxxx.com" route="2012-12-31" load="普通"/>
+  </node>
+  <node name="日本">
+    <server name="日本3区-03" ipaddr="jp8.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="日本3区-02" ipaddr="jp7.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="日本3区-01" ipaddr="jp6.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="日本2区-02" ipaddr="jp5.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="日本2区-01" ipaddr="jp4.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="日本1区-03" ipaddr="jp3.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="日本1区-02" ipaddr="jp2.xxxx.com" route="2012-12-31" load="流畅"/>
+    <server name="日本1区-01" ipaddr="jp1.xxxx.com" route="2012-12-31" load="流畅"/>
+  </node>
+</root>

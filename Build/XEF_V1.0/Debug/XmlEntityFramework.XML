@@ -1,0 +1,1007 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XmlEntityFramework</name>
+    </assembly>
+    <members>
+        <member name="T:XmlEntityFramework.BaseXmlEntity">
+            <summary>
+            Class BaseXmlEntity
+            </summary>
+        </member>
+        <member name="T:XmlEntityFramework.HttpMethodType">
+            <summary>
+            Enum HttpMethodType
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.HttpMethodType.GET">
+            <summary>
+            The GET
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.HttpMethodType.POST">
+            <summary>
+            The POST
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.HttpMethodType.PUT">
+            <summary>
+            The PUT
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.HttpMethodType.DELETE">
+            <summary>
+            The DELETE
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.HttpMethodType.OPTIONS">
+            <summary>
+            The OPTIONS
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.HttpMethodType.HEAD">
+            <summary>
+            The HEAD
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.HttpMethodType.TRACE">
+            <summary>
+            The TRACE
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.HttpMethodType.CONNECT">
+            <summary>
+            The CONNECT
+            </summary>
+        </member>
+        <member name="T:XmlEntityFramework.IXmlEntityProvider">
+            <summary>
+            Interface IXmlEntityProvider
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,System.Boolean)">
+            <summary>
+            从网络路径或者本地路径读取XML实体.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="urlOrLocalPath">The URL or local path.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.IO.MemoryStream,System.Boolean)">
+            <summary>
+            Reads the specified stream.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="stream">The stream.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.IO.MemoryStream,System.Text.Encoding,System.Boolean)">
+            <summary>
+            Reads the specified stream.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="stream">The stream.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,System.Text.Encoding,System.Boolean)">
+            <summary>
+            Read the specified URL or local path.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="urlOrLocalPath">The URL or local path.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,XmlEntityFramework.HttpMethodType,System.Boolean)">
+            <summary>
+            Read the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="method">The method.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,System.Net.WebHeaderCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="headers">The headers.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,System.Net.WebHeaderCollection,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="headers">The headers.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,XmlEntityFramework.HttpMethodType,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Read the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="method">The method.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,XmlEntityFramework.HttpMethodType,System.Net.WebHeaderCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="method">The method.</param>
+            <param name="headers">The headers.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,XmlEntityFramework.HttpMethodType,System.Net.WebHeaderCollection,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Gets the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="method">The method.</param>
+            <param name="headers">The headers.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,System.Text.Encoding,XmlEntityFramework.HttpMethodType,System.Boolean)">
+            <summary>
+            Read the specified URL or local path.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL or local path.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="method">The method.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,System.Text.Encoding,XmlEntityFramework.HttpMethodType,System.Net.WebHeaderCollection,System.Boolean)">
+            <summary>
+            Read the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="method">The method.</param>
+            <param name="headers">The headers.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,System.Text.Encoding,XmlEntityFramework.HttpMethodType,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Read the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="method">The method.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlEntityProvider.Read``1(System.String,System.Text.Encoding,XmlEntityFramework.HttpMethodType,System.Net.WebHeaderCollection,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="method">The method.</param>
+            <param name="headers">The headers.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="T:XmlEntityFramework.IXmlParseEngine">
+            <summary>
+            XML处理引擎接口
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlParseEngine.Parse(System.String,System.Type)">
+            <summary>
+            Parses the specified XML content.
+            </summary>
+            <param name="xmlContent">Content of the XML.</param>
+            <param name="entityType">Type of the entity.</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlParseEngine.Parse(System.Xml.XmlNode,System.Type)">
+            <summary>
+            Parses the specified XML node.
+            </summary>
+            <param name="xmlNode">The XML node.</param>
+            <param name="entityType">Type of the entity.</param>
+            <returns>System.Object.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.IXmlParseEngine.Parse(System.Xml.XmlNode,System.String,System.Type)">
+            <summary>
+            Parses the specified XML doc.
+            </summary>
+            <param name="xmlDoc">The XML doc.</param>
+            <param name="xmlEntityXPath">The XML entity X path.</param>
+            <param name="entityType">Type of the entity.</param>
+            <returns>Object[].</returns>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityNodeRegexAttribute">
+            <summary>
+            XmlEntityNodeRegexAttribute
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityNodeRegexAttribute.#ctor(System.String,System.Text.RegularExpressions.RegexOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityNodeRegexAttribute"/> class.
+            </summary>
+            <param name="pattern">The pattern.</param>
+            <param name="regexOptions">The regex options.</param>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityNodeRegexAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityNodeRegexAttribute"/> class.
+            </summary>
+            <param name="pattern">The pattern.</param>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityNodeRegexAttribute.Regex">
+            <summary>
+            Gets the regex.
+            </summary>
+            <value>
+            The regex.
+            </value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityAttribute">
+            <summary>
+            Class XmlEntityAttribute
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityAttribute.#ctor(System.String,System.String,XmlEntityFramework.XmlEntityFlags)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityAttribute"/> class.
+            </summary>
+            <param name="mappingNodeName">Name of the mapping node.</param>
+            <param name="baseNodeXPath">The base node X path.</param>
+            <param name="xmlEntityFlag">The XML entity flag.</param>
+            <exception cref="T:System.Exception">节点名称不能为空。</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityAttribute.CheckXPath(System.String)">
+            <summary>
+            Checks the X path.
+            </summary>
+            <param name="baseNodeXPath">The base node X path.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityAttribute.#ctor(System.String,XmlEntityFramework.XmlEntityFlags)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityAttribute"/> class.
+            </summary>
+            <param name="mappingNodeName">Name of the mapping node.</param>
+            <param name="xmlEntityType">Type of the XML entity.</param>
+            <exception cref="T:System.Exception">节点名称不能为空。</exception>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityAttribute.XPath">
+            <summary>
+            Gets or sets the X path.
+            </summary>
+            <value>The X path.</value>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityAttribute.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityAttribute.XmlEntityFlag">
+            <summary>
+            Gets or sets the type of the value.
+            </summary>
+            <value>The type of the value.</value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityCacheAttribute">
+            <summary>
+            Class XmlEntityCacheAttribute
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheAttribute.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityCacheAttribute"/> class.
+            </summary>
+            <param name="lifeCycle">The life cycle.</param>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityCacheAttribute.LifeCycle">
+            <summary>
+            Gets the life cycle.
+            </summary>
+            <value>The life cycle.</value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityCacheObject">
+            <summary>
+            Class XmlEntityCacheObject
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheObject.#ctor(System.Object,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityCacheObject"/> class.
+            </summary>
+            <param name="target">The target.</param>
+            <param name="lifeCycle">The life cycle.</param>
+            <exception cref="T:System.ArgumentNullException">targetObject</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheObject.TimerEvent(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            Timers the event.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Timers.ElapsedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheObject.Dispose">
+            <summary>
+            执行与释放或重置非托管资源相关的应用程序定义的任务。
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheObject.Finalize">
+            <summary>
+            Finalizes an instance of the <see cref="T:XmlEntityFramework.XmlEntityCacheObject"/> class.
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheObject.Dispose(System.Boolean)">
+            <summary>
+            Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityCacheObject.Cache">
+            <summary>
+            Gets the cache object.
+            </summary>
+            <value>The cache object.</value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityCacheWorker">
+            <summary>
+            Class XmlEntityCacheWorker
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityCacheWorker._instance">
+            <summary>
+            The _instance
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheWorker.#ctor">
+            <summary>
+            Prevents a default instance of the <see cref="T:XmlEntityFramework.XmlEntityCacheWorker"/> class from being created.
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheWorker.Set(System.Type,System.Object,System.Int32)">
+            <summary>
+            Sets the specified id.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="entity">The entity.</param>
+            <param name="lifeCycle">The life cycle.</param>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheWorker.Get(System.Type)">
+            <summary>
+            Gets the specified id.
+            </summary>
+            <param name="id">The id.</param>
+            <returns>System.Object.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheWorker.Clear">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheWorker.ContainsKey(System.Type)">
+            <summary>
+            Determines whether the specified id contains key.
+            </summary>
+            <param name="id">The id.</param>
+            <returns><c>true</c> if the specified id contains key; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityCacheWorker.Remove(System.Type)">
+            <summary>
+            Removes the specified id.
+            </summary>
+            <param name="id">The id.</param>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityCacheWorker.Instance">
+            <summary>
+            Gets the instance.
+            </summary>
+            <value>The instance.</value>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityCacheWorker.Count">
+            <summary>
+            Gets the count.
+            </summary>
+            <value>The count.</value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityHandler">
+            <summary>
+            实体处理委托
+            </summary>
+            <param name="xmlContent">Content of the XML.</param>
+            <param name="entityType">Type of the entity.</param>
+            <returns>System.Object.</returns>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityHandlerAttribute">
+            <summary>
+            Class XmlEntityHandlerAttribute
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityHandlerAttribute.#ctor(System.Type,System.String,System.Type)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityHandlerAttribute"/> class.
+            </summary>
+            <param name="parseEngineDelegateType">Type of the parse engine delegate.</param>
+            <param name="parseEngineDelegateName">Name of the parse engine delegate.</param>
+            <param name="entityType">Type of the entity.</param>
+            <exception cref="T:System.Exception">Xml处理引擎必须实现接口：IXmlParseEngine。</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityHandlerAttribute.#ctor(System.Type,System.Type)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityHandlerAttribute"/> class.
+            </summary>
+            <param name="parseEngineDelegateType">Type of the parse engine delegate.</param>
+            <param name="entityType">Type of the entity.</param>
+            <exception cref="T:System.Exception">接口不能包含O个方法。</exception>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityHandlerAttribute.EntityParser">
+            <summary>
+            Gets the handler.
+            </summary>
+            <value>
+            The handler.
+            </value>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityHandlerAttribute.EntityType">
+            <summary>
+            Gets the type of the entity.
+            </summary>
+            <value>
+            The type of the entity.
+            </value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityNodeDataFormatAttribute">
+            <summary>
+            XmlEntityNodeDataFormatAttribute
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityNodeDataFormatAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityNodeDataFormatAttribute"/> class.
+            </summary>
+            <param name="dataFormat">The data format.</param>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityNodeDataFormatAttribute.DataFormat">
+            <summary>
+            Gets or sets the data format.
+            </summary>
+            <value>
+            The data format.
+            </value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityUtility">
+            <summary>
+            Class XmlEntityHelper
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.GetXmlEntityHandlerAttribute(System.Type)">
+            <summary>
+            Gets the entity member info.
+            </summary>
+            <param name="entityType">Type of the entity.</param>
+            <returns>MemberInfo.</returns>
+            <exception cref="T:System.Exception">类型未继承BaseXmlEntity或该类型（父类）需未标注属性：XmlEntityHandlerAttribute</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.GetXmlEntityAttribute(System.Type)">
+            <summary>
+            Gets the XML entity attribute.
+            </summary>
+            <param name="entityType">Type of the entity.</param>
+            <returns>XmlEntityHandlerAttribute.</returns>
+            <exception cref="T:System.Exception">该类型（父类）需未标注属性：XmlEntityAttribute</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.GetXmlEntityKnownTypeAttribute(System.Type)">
+            <summary>
+            Gets the XML entity attribute.
+            </summary>
+            <param name="entityType">Type of the entity.</param>
+            <returns>XmlEntityHandlerAttribute.</returns>
+            <exception cref="T:System.Exception">该类型（父类）需未标注属性：XmlEntityAttribute</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.GetXmlEntityCacheAttribute(System.Type)">
+            <summary>
+            Gets the XML entity cache attribute.
+            </summary>
+            <param name="entityType">Type of the entity.</param>
+            <returns>XmlEntityCacheAttribute.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.IsNestedNode(System.Type)">
+            <summary>
+            Determines whether [is nested node] [the specified type].
+            </summary>
+            <param name="targetType">Type of the target.</param>
+            <returns><c>true</c> if [is nested node] [the specified type]; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.IsNestedSingleNode(System.Type)">
+            <summary>
+            Determines whether [is nested single node].
+            </summary>
+            <param name="targetType">Type of the target.</param>
+            <returns><c>true</c> if [is nested single node]; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.SetEntityValue(System.Object,System.Object,System.Reflection.PropertyInfo,System.Type)">
+            <summary>
+            Sets the value.
+            </summary>
+            <param name="entity">The entity.</param>
+            <param name="value">The value.</param>
+            <param name="propertyInfo">The property info.</param>
+            <param name="knownTypeofNestedEntity">The known type of nested entity.</param>
+            <exception cref="T:System.Exception">需要设置嵌套属性的类型，类型： + propertyInfo.PropertyType</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.GetArrayFormValue(System.Object)">
+            <summary>
+            Tries to get array.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>Array.</returns>
+            <exception cref="T:System.Exception">无法找到ToArray方法，类型： + vType</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.TryGetICollectionElementType(System.Type,System.Type@)">
+            <summary>
+            Tries the type of the get I collection element.
+            </summary>
+            <param name="collectionType">Type of the collection.</param>
+            <param name="elementType">Type of the element.</param>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityUtility.DetectAndMatchValue(System.String,System.Reflection.PropertyInfo)">
+            <summary>
+            Detects the type and match value.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="propertyInfo">The property info.</param>
+            <returns></returns>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityKnownTypeAttribute">
+            <summary>
+            Class XmlEntityKnownTypeAttribute
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityKnownTypeAttribute.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityKnownTypeAttribute"/> class.
+            </summary>
+            <param name="knownType">Type of the known.</param>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityKnownTypeAttribute.KnownType">
+            <summary>
+            Gets the type of the know.
+            </summary>
+            <value>The type of the know.</value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityNodeAttribute">
+            <summary>
+            Class XmlEntityNodeAttribute
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityNodeAttribute.#ctor(System.String,System.String,XmlEntityFramework.XmlEntityNodeFlags,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityNodeAttribute"/> class.
+            </summary>
+            <param name="mappingNodeName">Name of the mapping node.</param>
+            <param name="nodeXPath">The node X path.</param>
+            <param name="xmlEntityNodeAttributeType">Type of the XML entity node attribute.</param>
+            <param name="format">The format.</param>
+            <exception cref="T:System.Exception">节点映射的名称不能为空。</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityNodeAttribute.#ctor(System.String,XmlEntityFramework.XmlEntityNodeFlags,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityNodeAttribute"/> class.
+            </summary>
+            <param name="mappingNodeName">Name of the mapping node.</param>
+            <param name="xmlEntityNodeAttributeType">Type of the XML entity node attribute.</param>
+            <param name="format">The format.</param>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityNodeAttribute.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityNodeAttribute.NodeAttributeType">
+            <summary>
+            Gets or sets the type of the node attribute.
+            </summary>
+            <value>The type of the node attribute.</value>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityNodeAttribute.Format">
+            <summary>
+            Gets the format.
+            </summary>
+            <value>
+            The format.
+            </value>
+        </member>
+        <member name="P:XmlEntityFramework.XmlEntityNodeAttribute.XPath">
+            <summary>
+            Gets or sets the X path.
+            </summary>
+            <value>The X path.</value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityNodeFlags">
+            <summary>
+            Enum XmlEntityNodeAttributeType
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityNodeFlags.NormalNode">
+            <summary>
+            正常节点类型
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityNodeFlags.RootNodeAttribute">
+            <summary>
+            根节点的属性
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityNodeFlags.SubNodeAttribute">
+            <summary>
+            子节点的属性
+            </summary>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityProvider">
+            <summary>
+            Class XmlEntityProvider
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityProvider._httpRegex">
+            <summary>
+            The HTTP regex pattern
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityProvider._localRegex">
+            <summary>
+            The local regex pattern
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlEntityProvider"/> class.
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.ReadFromLocal(System.String,System.Text.Encoding)">
+            <summary>
+            Reads the From local.
+            </summary>
+            <param name="localPath">The local path.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>System.String.</returns>
+            <exception cref="T:System.IO.IOException">文件不存在，请检查文件是否存在。目标文件： + localPath</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.ReadFromHttp(System.String,System.Text.Encoding,XmlEntityFramework.HttpMethodType,System.Net.WebHeaderCollection,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            Reads the From HTTP.
+            </summary>
+            <param name="url">The URL.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="method">The method.</param>
+            <param name="headers">The headers.</param>
+            <param name="paras">The paras.</param>
+            <returns>System.String.</returns>
+            <exception cref="T:System.Exception">不是有效的网络地址，请检查文件是否存在。目标地址： + url</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.UseCache(System.Type)">
+            <summary>
+            Uses the cache.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>Object.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.HasCache(System.Type)">
+            <summary>
+            Determines whether the specified key has cache.
+            </summary>
+            <param name="key">The key.</param>
+            <returns><c>true</c> if the specified key has cache; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.SetCache``1(System.Object)">
+            <summary>
+            Sets the cache.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tarObject">The tar object.</param>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,System.Boolean)">
+            <summary>
+            Read the specified URL or local path.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="urlOrLocalPath">The URL or local path.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.IO.MemoryStream,System.Boolean)">
+            <summary>
+            Reads the specified stream.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="stream">The stream.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.IO.MemoryStream,System.Text.Encoding,System.Boolean)">
+            <summary>
+            Reads the specified stream.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="stream">The stream.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,System.Text.Encoding,System.Boolean)">
+            <summary>
+            Read the specified URL or local path.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="urlOrLocalPath">The URL or local path.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+            <exception cref="T:System.Exception">不是有效的网络路径或本地路径，目标地址： + urlOrLocalPath</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,XmlEntityFramework.HttpMethodType,System.Boolean)">
+            <summary>
+            Read the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="method">The method.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,System.Net.WebHeaderCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="headers">The headers.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,System.Net.WebHeaderCollection,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="headers">The headers.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,XmlEntityFramework.HttpMethodType,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Read the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="method">The method.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,XmlEntityFramework.HttpMethodType,System.Net.WebHeaderCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="method">The method.</param>
+            <param name="headers">The headers.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,XmlEntityFramework.HttpMethodType,System.Net.WebHeaderCollection,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Gets the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="method">The method.</param>
+            <param name="headers">The headers.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,System.Text.Encoding,XmlEntityFramework.HttpMethodType,System.Boolean)">
+            <summary>
+            Read the specified URL or local path.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL or local path.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="method">The method.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,System.Text.Encoding,XmlEntityFramework.HttpMethodType,System.Net.WebHeaderCollection,System.Boolean)">
+            <summary>
+            Read the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="method">The method.</param>
+            <param name="headers">The headers.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,System.Text.Encoding,XmlEntityFramework.HttpMethodType,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Read the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="method">The method.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.Read``1(System.String,System.Text.Encoding,XmlEntityFramework.HttpMethodType,System.Net.WebHeaderCollection,System.Collections.Specialized.NameValueCollection,System.Boolean)">
+            <summary>
+            Reads the specified URL.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url">The URL.</param>
+            <param name="encoding">The encoding.</param>
+            <param name="method">The method.</param>
+            <param name="headers">The headers.</param>
+            <param name="paras">The paras.</param>
+            <param name="forceRefreshCache">if set to <c>true</c> [force refresh cache].</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlEntityProvider.ParseData``1(System.String)">
+            <summary>
+            Parses the data.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="xmlContent">Content of the XML.</param>
+            <returns>List{``0}.</returns>
+        </member>
+        <member name="T:XmlEntityFramework.XmlEntityFlags">
+            <summary>
+            Enum XmlEntityFlags
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityFlags.Single">
+            <summary>
+            单个实体
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityFlags.Multiple">
+            <summary>
+            多个实体
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityFlags.Base">
+            <summary>
+            基础实体
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlEntityFlags.Nested">
+            <summary>
+            嵌套实体
+            </summary>
+        </member>
+        <member name="T:XmlEntityFramework.XmlParseMethodAttribute">
+            <summary>
+            Class XmlParseMethodAttribute
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlParseMethodAttribute.#ctor(XmlEntityFramework.XmlParseMethodType)">
+            <summary>
+            Initializes a new instance of the <see cref="T:XmlEntityFramework.XmlParseMethodAttribute"/> class.
+            </summary>
+            <param name="xmlParseMethodType">Type of the XML parse method.</param>
+        </member>
+        <member name="P:XmlEntityFramework.XmlParseMethodAttribute.MethodType">
+            <summary>
+            Gets the type of the method.
+            </summary>
+            <value>The type of the method.</value>
+        </member>
+        <member name="T:XmlEntityFramework.XmlParseEngine">
+            <summary>
+            Class XmlParseEngine
+            </summary>
+        </member>
+        <member name="M:XmlEntityFramework.XmlParseEngine.Parse(System.String,System.Type)">
+            <summary>
+            Parses the specified XML content.
+            </summary>
+            <param name="xmlContent">Content of the XML.</param>
+            <param name="entityType">Type of the entity.</param>
+            <returns>List{``0}.</returns>
+            <exception cref="T:System.Xml.XmlException">无效的Xml格式， + ex.Message</exception>
+        </member>
+        <member name="M:XmlEntityFramework.XmlParseEngine.Parse(System.Xml.XmlNode,System.Type)">
+            <summary>
+            Extracts the item.
+            </summary>
+            <param name="xmlNode">The XML node.</param>
+            <param name="entityType">Type of the entity.</param>
+            <returns>System.Object.</returns>
+        </member>
+        <member name="M:XmlEntityFramework.XmlParseEngine.Parse(System.Xml.XmlNode,System.String,System.Type)">
+            <summary>
+            Extracts the list.
+            </summary>
+            <param name="xmlDoc">The XML doc.</param>
+            <param name="xmlEntityXPath">The XML entity X path.</param>
+            <param name="entityType">Type of the entity.</param>
+            <returns>List{Object}.</returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:XmlEntityFramework.XmlParseMethodType">
+            <summary>
+            Enum XmlParseMethodType
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlParseMethodType.Default">
+            <summary>
+            默认方法
+            </summary>
+        </member>
+        <member name="F:XmlEntityFramework.XmlParseMethodType.Normal">
+            <summary>
+            普通方法
+            </summary>
+        </member>
+    </members>
+</doc>
